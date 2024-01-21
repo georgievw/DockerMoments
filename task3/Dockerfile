@@ -5,7 +5,7 @@ RUN apt-get update && \
     && \
     rm -rf /var/lib/apt/lists/*
 
-ENV VIRTUAL_ENV=/opt/my_levashova
+ENV VIRTUAL_ENV=/opt/my_test
 
 RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
