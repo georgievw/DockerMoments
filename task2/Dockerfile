@@ -17,5 +17,3 @@ RUN git clone --depth 1 https://github.com/nltk/nltk.git \
 RUN git clone --depth 1 https://github.com/dbrgn/star.git \
     && cd star \
     && pip install star
-
-

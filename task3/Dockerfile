@@ -16,5 +16,3 @@ pip install jupyter geopandas seaborn nltk STAR
 EXPOSE 8888
 
 ENTRYPOINT ["jupyter","notebook","--ip=0.0.0.0","--allow-root"]
-
-
